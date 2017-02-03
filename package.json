@@ -1,0 +1,22 @@
+{
+  "name": "bubble-sort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MOtaJ/Bubble-Sort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MOtaJ/Bubble-Sort/issues"
+  },
+  "homepage": "https://github.com/MOtaJ/Bubble-Sort#readme",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
