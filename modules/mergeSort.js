@@ -32,3 +32,5 @@ function mergeSort(array) {
 let array = [4, 9, 1, 13, 35, 67, 5, 18, 105, 87, 34, 6];
 
 console.log(mergeSort(array));
+
+module.exports = mergeSort;
