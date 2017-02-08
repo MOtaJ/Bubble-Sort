@@ -1,4 +1,4 @@
-let arr = [5, 1, 4, 4, 2, 6, 7, 2, 8];
+
 
 function bubbleSort(arr) {
   let swapped;
@@ -15,9 +15,6 @@ function bubbleSort(arr) {
   } while (swapped);
   return arr;
 }
-
-bubbleSort(arr);
-console.log(arr);
 
 
 module.exports = bubbleSort;

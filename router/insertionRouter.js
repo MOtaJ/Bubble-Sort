@@ -1,13 +1,13 @@
 const express = require('express');
 const router = express.Router();
-const bubbleSort = require('../bubbleSort.js');
+const insertion = require('../modules/insertion.js');
 const bodyParser = require('body-parser');
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({extended: true}));
 
-router.post('/', (req, res) => {
+router.post('/insertion', (req, res) => {
   let newArray = JSON.parse(req.body.array);
-  res.send(bubbleSort(newArray));
+  res.send(insertion(newArray));
 });
 
-module.exports = router;
+module.exports = insertion;
